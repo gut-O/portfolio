@@ -33,7 +33,7 @@ body{
 }
 
 .info p{
-    text-align: right;
+    text-align: center;
     line-height: 25px;
     padding-top: 50px;
     padding-right: 20px;
@@ -145,7 +145,48 @@ footer .fot-img{
     100%{transform: translateY(-100vh) scale(1);}
 }
 
+@media (max-width: 800px){
+    .container{
+        padding-bottom: 600px;
+    }
+    .present p {
+        font-size: 100px;
+    }
+    .info{
+        height: 100px;
+        width: 500px;
+    }
+    .td-left{
+        padding-left: 70px;
+        text-align: center;
+        float:left;
+    }
+    .td-right{
+        display: block;
+        width: 60px;
+    }
+    .present p{
+        padding-left: 26px;
+    }
+    .info{
+        width: 650px;
+    }
+    .info p{
+        text-align: left;
+        display: flex;
+        width: 500px;
+        padding-top: 200px;
+        padding-left: 100px;
+    }
 
+    .dropdown-content{
+        font-size: 13px;
+        right: -1;
+        left: 0;
+        width: 140px;
+        border-radius: 30px;
+       }
+}
 @media (max-width: 600px){
     body{
         margin: 0 0;
